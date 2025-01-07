@@ -21,3 +21,12 @@ console.log(typeof e)
 let f=d+e
 console.log(f)
 console.log(typeof f)
+
+let required = true
+console.log(required)
+console.log(typeof required)
+
+var d = false //var can re-declare
+console.log(d)
+console.log(typeof d)
+
