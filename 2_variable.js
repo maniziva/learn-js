@@ -30,3 +30,5 @@ var d = false //var can re-declare
 console.log(d)
 console.log(typeof d)
 
+console.log(!required) // Not equal to
+
