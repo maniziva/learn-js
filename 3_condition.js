@@ -5,10 +5,14 @@ if(flag){
         console.log('False')
     }
 
-
-const flag2=false
-if(flag2){
+if(!flag){
     console.log('True')}
     else{
         console.log('False')
     }
+    
+let i=0
+while(i<10){
+    console.log(i)
+    i++
+}
