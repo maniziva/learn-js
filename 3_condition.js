@@ -27,3 +27,8 @@ while(j<10)
 {
     console.log('do while loop'+j)
 }
+
+
+for(let k=0;k<10;k++){
+    console.log(k)
+}
