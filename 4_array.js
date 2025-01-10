@@ -17,3 +17,14 @@ console.log('-----------------');
 marks.unshift(0);
 console.log(marks); // Logs the array after adding 0 at the beginning: [0, 2, 3, 4, 5]
 console.log('-----------------');
+console.log(marks.indexOf(3)); // Logs the index of 3: 2
+console.log('-----------------');
+console.log(marks.includes(3)); // Logs true because 3 is present in the array
+console.log('-----------------');
+var newMarks = marks.slice(1, 3);
+console.log(newMarks); // Logs the new array [2, 3]
+console.log('-----------------');
+
+for(i=0; i<marks.length; i++){
+    console.log(marks[i]); // Logs all the elements of the array
+}
