@@ -48,3 +48,6 @@ for(var i=0; i<score.length; i++){
 }
 console.log('Even Sum Array: ', evenSum); // Logs the array of even numbers
 console.log('Odd Sum Array: ', oddSum); // Logs the array of even numbers
+
+let newFilterEvenScores = score.filter(score => score%2==0);
+console.log("newFilterEvenScores: ",newFilterEvenScores); // Logs the array of even numbers
