@@ -51,3 +51,6 @@ console.log('Odd Sum Array: ', oddSum); // Logs the array of even numbers
 
 let newFilterEvenScores = score.filter(score => score%2==0);
 console.log("newFilterEvenScores: ",newFilterEvenScores); // Logs the array of even numbers
+
+let mappedArray = score.map(score => score*2);
+console.log("mappedArray: ",mappedArray); // Logs the array of doubled numbers
