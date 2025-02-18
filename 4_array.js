@@ -25,12 +25,12 @@ var newMarks = marks.slice(1, 3);
 console.log(newMarks); // Logs the new array [2, 3]
 console.log('-----------------');
 
-var sum=0;
-for(i=0; i<marks.length; i++){
+var sum = 0;
+for (i = 0; i < marks.length; i++) {
     //console.log(marks[i]); // Logs all the elements of the array
-    sum=sum+marks[i];
+    sum = sum + marks[i];
 }
-console.log('Sum: '+sum); // Logs the sum of all the elements
+console.log('Sum: ' + sum); // Logs the sum of all the elements
 console.log('-----------------');
 
 var score = [11, 22, 33, 44, 55];
@@ -38,19 +38,22 @@ console.log(score); // Logs the array [11, 22, 33, 44, 55]
 var evenSum = []; // Initialize evenSum as an array
 var oddSum = []; // Initialize oddSum as an array
 
-for(var i=0; i<score.length; i++){
-    if(score[i]%2==0){
+for (var i = 0; i < score.length; i++) {
+    if (score[i] % 2 == 0) {
         evenSum.push(score[i]);
     }
-    else if(score[i]%2!=0){
+    else if (score[i] % 2 != 0) {
         oddSum.push(score[i]);
     }
 }
 console.log('Even Sum Array: ', evenSum); // Logs the array of even numbers
 console.log('Odd Sum Array: ', oddSum); // Logs the array of even numbers
 
-let newFilterEvenScores = score.filter(score => score%2==0);
-console.log("newFilterEvenScores: ",newFilterEvenScores); // Logs the array of even numbers
+let newFilterEvenScores = score.filter(score => score % 2 == 0);
+console.log("newFilterEvenScores: ", newFilterEvenScores); // Logs the array of even numbers
 
-let mappedArray = score.map(score => score*2);
-console.log("mappedArray: ",mappedArray); // Logs the array of doubled numbers
+let mappedArray = score.map(score => score * 2);
+console.log("mappedArray: ", mappedArray); // Logs the array of doubled numbers
+
+let reducedArray = mappedArray.reduce((acc, score) => acc + score, 0);
+console.log("reducedArray: ", reducedArray); // Logs the sum of all the elements
