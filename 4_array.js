@@ -57,3 +57,9 @@ console.log("mappedArray: ", mappedArray); // Logs the array of doubled numbers
 
 let reducedArray = mappedArray.reduce((acc, score) => acc + score, 0);
 console.log("reducedArray: ", reducedArray); // Logs the sum of all the elements
+console.log('-----------------');
+
+let fruits = ['mango', 'banana', 'apple', 'orange', 'papaya'];
+fruits.sort();
+console.log(fruits); // Logs the array sorted in alphabetical order
+console.log('-----------------');
