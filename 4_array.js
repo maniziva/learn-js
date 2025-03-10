@@ -71,3 +71,6 @@ console.log('-----------------');
 
 console.log("Customized sort",numbers.sort(function (a, b) { return a - b })); // Logs the array sorted in ascending order
 console.log('-----------------');
+
+console.log("Customized sort Reverse",numbers.sort(function (a, b) { return b - a })); // Logs the array sorted in ascending order
+console.log('-----------------');
