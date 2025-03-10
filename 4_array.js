@@ -60,6 +60,14 @@ console.log("reducedArray: ", reducedArray); // Logs the sum of all the elements
 console.log('-----------------');
 
 let fruits = ['mango', 'banana', 'apple', 'orange', 'papaya'];
-fruits.sort();
-console.log(fruits); // Logs the array sorted in alphabetical order
+
+console.log("Sort:",fruits.sort()); // Logs the array sorted in alphabetical order
+console.log("Reverse:",fruits.reverse()); // Logs the array sorted in reverse alphabetical order
+console.log('-----------------');
+
+var numbers = [40, 100, 1, 5, 25, 10];
+console.log("Normal sort:",numbers.sort()); // Logs the array sorted in ascending order
+console.log('-----------------');
+
+console.log("Customized sort",numbers.sort(function (a, b) { return a - b })); // Logs the array sorted in ascending order
 console.log('-----------------');
