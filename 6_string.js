@@ -27,3 +27,24 @@ console.log(splitDay2); // Logs ['F', 'r', 'i', 'd', 'a', 'y']
 
 let splitDay3 = day.split(' ');
 console.log(splitDay3); // Logs ['Friday']
+
+
+let arr = [5, 1, 9, 3, 7];
+
+arr.sort((a, b) => a - b); // Sort ascending
+
+console.log("Second Smallest:", arr[1]);
+console.log("Second Largest:", arr[arr.length - 2]);
+
+
+let a = '27'
+let b = '3'
+
+let diff = a - b;
+console.log(diff); // Logs 24
+
+let diff2 = parseInt(a) - parseInt(b);
+console.log(diff2); // Logs 24
+
+diff2.toString();
+console.log(diff2); // Logs 24
