@@ -22,3 +22,9 @@ console.log(firstTwo); // Logs 'Fr'
 
 let splitDay = day.split('i');
 console.log(splitDay); // Logs ['Fr', 'day']
+
+let splitDay2 = day.split('');
+console.log(splitDay2); // Logs ['F', 'r', 'i', 'd', 'a', 'y']
+
+let splitDay3 = day.split(' ');
+console.log(splitDay3); // Logs ['Friday']
