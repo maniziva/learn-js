@@ -19,3 +19,6 @@ console.log(last2char); // Logs 'ay'
 
 let firstTwo = day.substring(0, 2);
 console.log(firstTwo); // Logs 'Fr'
+
+let splitDay = day.split('i');
+console.log(splitDay); // Logs ['Fr', 'day']
