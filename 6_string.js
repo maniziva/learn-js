@@ -11,8 +11,7 @@ console.log(day[1]); //r
 
 const getlastindex = day.length - 1;
 const lastchar = day[getlastindex];
-console.log(lastchar);
-
+console.log(lastchar); // Logs 'y'
 
 const last2char = day.slice(-2);
 console.log(last2char); // Logs 'ay'
